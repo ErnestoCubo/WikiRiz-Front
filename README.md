@@ -4,7 +4,7 @@ Fronted wikiriz enlazado al proyecto de creación de la wiki de los términos RI
 
 ## Estructura general de directorios y organización del código.
 ```bash
-mi-proyecto-svelte/
+WIKIRIZ/
 │
 ├── public/                 # Archivos estáticos accesibles públicamente
 │   ├── assets/             # Imágenes, fuentes, etc.
@@ -24,19 +24,21 @@ mi-proyecto-svelte/
 │   │   └── [route].js
 │   │
 │   ├── utils/              # Funciones de utilidad, helpers
-│   │   ├── api.js          # Funciones para llamadas a API
-│   │   └── helpers.js      # Funciones auxiliares generales
+│   │   ├── api.js
+│   │   └── helpers.js
 │   │
 │   ├── store/              # Gestión de estados (si es necesario)
 │   │   └── store.js
 │   │
 │   ├── styles/             # Hojas de estilo globales y módulos
-│   │   ├── global.css
-│   │   └── theme.module.css
+│   │   ├── tailwind.css    # Archivo de entrada para Tailwind CSS
+│   │   └── custom.css      # Estilos personalizados
 │   │
 │   ├── App.svelte          # Componente principal de la aplicación
 │   └── main.js             # Punto de entrada principal de la aplicación
 │
+├── tailwind.config.js      # Configuración de Tailwind CSS
+├── postcss.config.js       # Configuración de PostCSS (necesario para Tailwind)
 ├── .gitignore              # Archivo para especificar qué archivos no seguir en Git
 ├── package.json            # Dependencias y scripts del proyecto
 ├── rollup.config.js        # Configuración de Rollup (si se usa)
