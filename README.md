@@ -1,2 +1,2 @@
 # WikiRiz-Front
-Fronted wikiriz
+Fronted wikiriz enlazado al proyecto de creación de la wiki de los términos RIZS
