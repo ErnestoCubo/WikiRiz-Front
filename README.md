@@ -4,6 +4,7 @@ Fronted wikiriz enlazado al proyecto de creación de la wiki de los términos RI
 [![Super-Linter](https://github.com/ErnestoCubo/WikiRiz-Front/actions/workflows/linter.yml/badge.svg?event=push)](https://github.com/marketplace/actions/super-linter)
 
 ## Estructura general de directorios y organización del código
+
 ```bash
 .
 ├── src
